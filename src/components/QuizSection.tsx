@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const QuizSection = () => {
   return (
@@ -12,13 +13,15 @@ const QuizSection = () => {
           Take our 5-minute quiz to discover if you're a fit for the Legendree co-founder program.
         </p>
         
-        <Button 
-          size="lg"
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
-        >
-          Take the Co-Founder Quiz
-          <ArrowRight className="ml-2 h-5 w-5" />
-        </Button>
+        <Link to="/quiz">
+          <Button 
+            size="lg"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
+          >
+            Take the Co-Founder Quiz
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
+        </Link>
       </div>
     </section>
   );
