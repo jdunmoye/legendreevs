@@ -31,13 +31,15 @@ const Quiz = () => {
             Discover if your insight could become the next fundable B2B SaaS startup in your industry.
           </p>
           
-          <Button 
-            size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
-          >
-            Start the Quiz Now
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <Link to="/quiz/start">
+            <Button 
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
+            >
+              Start the Quiz Now
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
       </section>
 
@@ -106,13 +108,15 @@ const Quiz = () => {
             Take the first step toward transforming your industry expertise into a thriving SaaS venture.
           </p>
           
-          <Button 
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
-          >
-            Start the Quiz Now
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <Link to="/quiz/start">
+            <Button 
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base uppercase rounded-2xl px-10 py-6 transition-all hover:scale-105 shadow-xl"
+            >
+              Start the Quiz Now
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
