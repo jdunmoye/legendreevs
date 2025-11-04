@@ -10,12 +10,19 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+// Get basename from environment variable, default to /legendreevs for GitHub Pages
+// Remove trailing slash if present and ensure it starts with /
+const getBasename = () => {
+  const basePath = import.meta.env.VITE_BASE_PATH || "/legendreevs";
+  return basePath.replace(/\/$/, "") || "/";
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={getBasename()}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/quiz" element={<Quiz />} />
