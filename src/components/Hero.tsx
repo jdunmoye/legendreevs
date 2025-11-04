@@ -12,7 +12,7 @@ const Hero = () => {
           Turn Your Industry Insight into a SaaS Startup — Without Writing Code
         </h1>
         <p className="text-lg md:text-xl mb-10 text-white/90 max-w-3xl mx-auto font-inter">
-          Legendree Venture Studio partners with domain leaders to turn deep industry insight into profitable B2B software startups.
+          Legendree Venture Studio partners with domain experts to turn deep industry insight into profitable B2B software startups.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
