@@ -16,8 +16,13 @@ export default {
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],
         'inter': ['Inter', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
       colors: {
+        'sapphire-blue': '#0D47A1',
+        'emerald-green': '#00B67A',
+        'charcoal': '#2E2E2E',
+        'cloud-white': '#FAFAFA',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -102,12 +107,30 @@ export default {
             opacity: "1"
           }
         },
+        "shimmer": {
+          "0%": {
+            backgroundPosition: "-1000px 0"
+          },
+          "100%": {
+            backgroundPosition: "1000px 0"
+          }
+        },
+        "gradient-shift": {
+          "0%, 100%": {
+            backgroundPosition: "0% 50%"
+          },
+          "50%": {
+            backgroundPosition: "100% 50%"
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-up": "fade-up 0.6s ease-out",
         "fade-in": "fade-in 0.4s ease-out",
+        "shimmer": "shimmer 3s infinite",
+        "gradient-shift": "gradient-shift 20s ease infinite",
       },
     },
   },
