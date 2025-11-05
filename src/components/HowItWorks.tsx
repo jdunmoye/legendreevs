@@ -15,12 +15,12 @@ const HowItWorks = () => {
     {
       icon: FileText,
       title: "Define the Product Vision",
-      description: "We create your PRD and clickable prototype."
+      description: "We create the PRD and clickable prototype."
     },
     {
       icon: TrendingUp,
       title: "Co-Invest + Build",
-      description: "Partner to take your MVP to market."
+      description: "Partner to take the MVP to market."
     }
   ];
 

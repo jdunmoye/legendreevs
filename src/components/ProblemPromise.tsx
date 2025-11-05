@@ -9,14 +9,14 @@ const ProblemPromise = () => {
           
           <div className="space-y-6 text-lg text-secondary-foreground font-inter max-w-4xl mx-auto">
             <p>
-              Every industry hides inefficiencies — expensive software, outdated tools, and workarounds that slow progress. 
+              Every industry hides inefficiencies — expensive software, outdated tools, and depend on workarounds with Excel sheets, charting platforms, and other manual tools that slow progress. 
               You see them every day.
             </p>
             <p>
-              What you might not see yet is that your insight could become a profitable SaaS business.
+              What you might not see yet is that your insight could earn you equity in a profitable SaaS business.
             </p>
             <p className="font-semibold text-foreground text-xl">
-              We help domain experts like you make that leap.
+              We help domain experts like you turn that insight into equity.
             </p>
           </div>
         </div>

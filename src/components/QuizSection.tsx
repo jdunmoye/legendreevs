@@ -10,7 +10,7 @@ const QuizSection = () => {
           Ready to Co-Found a SaaS Venture in Your Industry?
         </h2>
         <p className="text-lg text-secondary-foreground mb-10 font-inter">
-          Take our 5-minute quiz to discover if you're a fit for the Legendree co-founder program.
+          Take our 3-minute quiz to discover if you're a fit for the Legendree co-founder program.
         </p>
         
         <Link to="/quiz">

@@ -4,18 +4,18 @@ import { Star } from "lucide-react";
 const SuccessStories = () => {
   const stories = [
     {
-      title: "Healthcare Workflow Platform",
-      description: "Domain expert transformed clinic inefficiencies into a $2M ARR SaaS platform.",
-      result: "Secured $50k pre-seed after prototype phase"
+      title: "Healthcare Platform",
+      description: "Domain expert transformed a gap in the healthcare value chain into a $2M ARR SaaS platform.",
+      result: "Secured $100k pre-seed after prototype phase"
     },
     {
-      title: "Construction Management Tool",
-      description: "Industry veteran turned scheduling pain into automated project management software.",
-      result: "10+ early adopter clients in 6 months"
+      title: "Aviation software",
+      description: "Industry veteran turned an industry pain point into automated process management software.",
+      result: "5+ early adopter clients in 6 months"
     },
     {
-      title: "Legal Document Automation",
-      description: "Attorney identified contract bottleneck and built AI-powered document generator.",
+      title: "Home health agency software",
+      description: "An agency manager identified a bottleneck in the home health agency industry and built a software solution to automate the process.",
       result: "Featured in industry publication, 200+ waitlist"
     }
   ];

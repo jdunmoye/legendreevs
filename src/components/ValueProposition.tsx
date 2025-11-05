@@ -5,17 +5,17 @@ const ValueProposition = () => {
     {
       icon: Lightbulb,
       title: "From Insight to Prototype",
-      description: "We turn raw industry pain points into fundable, clickable SaaS products."
+      description: "We turn raw industry pain points into fundable, sellable,clickable SaaS products."
     },
     {
       icon: Handshake,
       title: "Co-Founder Partnership Model",
-      description: "You bring industry knowledge. We bring product design, strategy, and build execution."
+      description: "You bring industry access and knowledge. We bring product design, strategy, and build execution."
     },
     {
       icon: Rocket,
       title: "Equity + Cash Model",
-      description: "Pay a reduced rate, gain ownership in real ventures."
+      description: "Invest at a reduced rate, gain equity in a real venture."
     }
   ];
 

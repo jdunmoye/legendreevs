@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <img src={legendreeLogo} alt="Legendree Venture Studio" className="h-16 mb-6 brightness-0 invert" />
+            <img src={legendreeLogo} alt="Legendree Venture Studio" className="h-16 mb-6" />
             <p className="text-background/80 font-inter mb-6">
               Turning industry insight into profitable SaaS startups through strategic co-founder partnerships.
             </p>
